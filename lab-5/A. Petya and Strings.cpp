@@ -11,18 +11,6 @@ strlwr(s1);
 int  n;
 n=strcmp(s,s1);
 
-// for(int i=0;i<strlen(s);i++)
-// if(s[i]>s1[i])
-// {
-//   printf("1");
-//   break;
-// }
-// else if(s[i]<s1[i])
-// {
-//   printf("-1");
-//   break;
-// }
-
 printf("%d",n);
     return 0;
 }
