@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+
+int n,m,count=0;
+scanf("%d %d",&n,&m);
+for(;;)
+{
+  n=n*3;
+m=m*2;
+count++;
+if(n>m)
+break;
+}
+printf("%d",count);
+
+
+return 0;
+}
