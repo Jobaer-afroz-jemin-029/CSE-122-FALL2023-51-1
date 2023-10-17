@@ -8,8 +8,6 @@ for(int i=0;i<n;i++){
 int x,y;
 cin>>x>>y;
 in=in-x;
-if(max<in)
-max=in;
 in=in+y;
 if(max<in)
 max=in;
