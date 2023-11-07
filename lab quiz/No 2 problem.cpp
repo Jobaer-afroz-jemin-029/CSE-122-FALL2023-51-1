@@ -28,7 +28,7 @@ int main(){
     float greatestFloat = greatest(q , w , e);
     
     cout << endl;
-    cout << "The greatest integer value is: " << greatestInt << endl;
-    cout << "The greatest character value is: " << greatestChar << endl;
-    cout << "The greatest floating-point value is: " << greatestFloat << endl;
+    cout << "The greatest integer value" << greatestInt << endl;
+    cout << "The greatest character value " << greatestChar << endl;
+    cout << "The greatest floating value " << greatestFloat << endl;
 }
